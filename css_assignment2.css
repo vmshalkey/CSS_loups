@@ -1,0 +1,80 @@
+/*CSS reset settings here*/
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	color:blue;
+}
+#wrapper{
+	width: 970px;
+	background-color: #F0F0F0;
+	margin: 0px auto;
+	padding: 15px;
+}
+#header{
+	height: auto;
+	background-color: #E0E0E0;
+	margin: 15px;
+	padding: 15px;
+	border-radius: 20px;
+}
+#navigation{
+	height: auto;
+	width: 200px;
+	background-color: #E0E0E0;
+	margin: 15px;
+	padding: 15px;
+	display: inline-block;
+	border-radius: 20px;
+}
+.navigation-links{
+	text-decoration: none;
+}
+.main-level{
+	list-style-type: none;
+}
+.second-level{
+	list-style-position: inside;
+}
+.third-level{
+	list-style-type: circle;
+	list-style-position: inside;
+	text-indent: 10px;
+}
+#main_content{
+	height: auto;
+	width: 670px;
+	background-color: #A0A0A0;
+	margin-top: 15px;
+	padding: 15px;
+	display: inline-block;
+	vertical-align: top;
+	border-radius: 20px;
+}
+h2{
+	margin-top: 20px;
+}
+.intro{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.essays{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 40px;
+}
+.essay-links{
+	font-weight: bold;
+}
+#footer{
+	height: auto;
+	width: auto;
+	background-color: #E0E0E0;
+	margin-top: 20px;
+	margin-left: 10px;
+	padding: 15px;
+	display: block;
+	vertical-align: top;
+	border-radius: 20px;
+}
